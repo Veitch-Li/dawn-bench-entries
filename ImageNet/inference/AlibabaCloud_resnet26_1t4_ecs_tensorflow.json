@@ -1,0 +1,18 @@
+{
+    "version": "v1.0",
+    "author": "PAI: Platform of A.I. in Alibaba Cloud",
+    "authorEmail": "yiwu.yyw@alibaba-inc.com, muzhuo.yj@alibaba-inc.com",
+    "framework": "PAI-Blade + TensorRT",
+    "codeURL": "https://github.com/AliCloud-PAI/dawnbench_infer",
+    "commitHash": "14c861a24f0c9d6f3c18f29a848dde84df22c01c",
+    "model": "ResNet26",
+    "hardware": "Alibaba Cloud [ecs.gn6i-c8g1.2xlarge]",
+    "latency": 0.4662,
+    "top5Accuracy": 93.076,
+    "timestamp": "2020-02-20",
+    "misc": {
+        "GPU": "Tesla T4",
+        "CUDA version": "10.1.243",
+        "TensorRT": "TensorRT 6.0.1.4"
+    }
+}
